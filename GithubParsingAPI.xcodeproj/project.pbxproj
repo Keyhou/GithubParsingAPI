@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF20644428E2F743005A13AD /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF20644328E2F743005A13AD /* UserModel.swift */; };
 		EFA6E46328E2F425006C4B46 /* GithubParsingAPIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA6E46228E2F425006C4B46 /* GithubParsingAPIApp.swift */; };
 		EFA6E46528E2F425006C4B46 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA6E46428E2F425006C4B46 /* ContentView.swift */; };
 		EFA6E46728E2F426006C4B46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFA6E46628E2F426006C4B46 /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EF20644328E2F743005A13AD /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		EFA6E45F28E2F425006C4B46 /* GithubParsingAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GithubParsingAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFA6E46228E2F425006C4B46 /* GithubParsingAPIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubParsingAPIApp.swift; sourceTree = "<group>"; };
 		EFA6E46428E2F425006C4B46 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -96,6 +98,7 @@
 			children = (
 				EFA6E46228E2F425006C4B46 /* GithubParsingAPIApp.swift */,
 				EFA6E46428E2F425006C4B46 /* ContentView.swift */,
+				EF20644328E2F743005A13AD /* UserModel.swift */,
 				EFA6E46628E2F426006C4B46 /* Assets.xcassets */,
 				EFA6E46828E2F426006C4B46 /* Preview Content */,
 			);
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EFA6E46528E2F425006C4B46 /* ContentView.swift in Sources */,
+				EF20644428E2F743005A13AD /* UserModel.swift in Sources */,
 				EFA6E46328E2F425006C4B46 /* GithubParsingAPIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
